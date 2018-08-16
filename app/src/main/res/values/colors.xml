@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--婚礼纪APP用到的最基本的颜色值,通用的common的才会出现在这里-->
+<resources>
+
+    <color name="colorPrimary">#f83244</color>  <!-- 主色调，用于强调突出的文字、按钮等 -->
+    <!--<color name="colorPrimary">#f83244</color>  &lt;!&ndash; 主色调，用于强调突出的文字、按钮等 &ndash;&gt;-->
+    <color name="colorPrimaryDark">#e22d3e</color> <!-- 主色调点击色 -->
+    <color name="colorPrimaryLight">#feeaec</color> <!-- 主色调点击色 -->
+    <color name="colorAccent">#f83244</color>  <!-- 强调色，辅助主色 -->
+    <!--<color name="colorAccent2">#ffaf24</color> &lt;!&ndash; 强调色2，辅助主色&ndash;&gt;-->
+
+    <color name="colorSuccess">#46d787</color> <!-- 完成色，用于完成、可使用等-->
+    <color name="colorLink">#508cee</color> <!-- 链接色，用于链接，页面内主色过多时，用于按钮 -->
+
+    <color name="colorBlack">#000000</color> <!-- 黑1，用于详情页主标题等 -->
+    <color name="colorBlack2">#333333</color> <!-- 黑2，主要用于标题，部分用户内容文字 -->
+    <color name="colorBlack3">#666666</color> <!-- 黑3，主要文字内容 -->
+
+    <color name="colorGray">#999999</color> <!-- 灰1，用于辅助，次要文字 -->
+    <color name="colorGray2">#aaaaaa</color> <!-- 灰2，用于默认输入文字，最次要文字 -->
+    <color name="colorGray3">#cccccc</color> <!-- 灰3，只用于灰色实心icon，文字上不要用 -->
+
+    <color name="colorLine">#e2e2e2</color> <!-- 线1，只是分割线，线标注是1px -->
+    <color name="colorLine2">#d2d2d2</color> <!-- 线2，标签、按钮、输入框的描边 -->
+    <color name="colorBackground">#f2f3f6</color> <!-- 背景底色 -->
+    <color name="colorBackground2">#f6f6f7</color> <!-- 次一级块底色 -->
+    <color name="colorImageBackground">#eeeeee</color> <!-- 图片默认背景色 -->
+    <color name="colorRootShadowBackground">#D9000000</color>
+    <color name="colorBarTitle">#333333</color>  <!-- 标题色 -->
+
+    <color name="colorWhite">#ffffff</color> <!-- 纯白色 -->
+
+</resources>

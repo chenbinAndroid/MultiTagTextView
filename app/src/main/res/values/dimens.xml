@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    <dimen name="flow_horizontal_margin">10dip</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="tab_high">40dp</dimen>
+    <integer name="num_cols">1</integer>
+    <dimen name="ex_huge_text_size">24sp</dimen>
+    <dimen name="huge_text_size">22sp</dimen>
+    <dimen name="ex_large_text_size">20sp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="large_text_size2">17sp</dimen>
+    <dimen name="ex_medium_text_size">16sp</dimen>
+    <dimen name="ex_medium_text_size2">15sp</dimen>
+    <dimen name="medium_text_size1">14sp</dimen>
+    <dimen name="medium_text_size2">13sp</dimen>
+    <dimen name="medium_text_size3">12sp</dimen>
+    <dimen name="ex_small_text_size">11sp</dimen>
+    <dimen name="small_text_size">10sp</dimen>
+    <dimen name="ex_micro_text_size">9sp</dimen>
+    <dimen name="micro_text_size">8sp</dimen>
+    <dimen name="list_max_height">300dp</dimen>
+    <dimen name="bar_title_size">17sp</dimen>
+
+
+    <dimen name="default_scroll_image_height">160dp</dimen>
+    <dimen name="size_default_height">160dp</dimen>
+</resources>

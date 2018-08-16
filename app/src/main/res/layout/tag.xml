@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/sp_r4_stroke1_primary_solid_trans"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="超值特价"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/ex_small_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_tag2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/sp_r4_stroke1_primary_solid_trans"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="超值特价"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/ex_small_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_tag3"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/sp_r4_stroke1_primary_solid_trans"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="超值特价"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/ex_small_text_size"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
