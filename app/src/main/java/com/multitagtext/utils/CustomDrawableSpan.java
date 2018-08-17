@@ -1,4 +1,4 @@
-package com.example.a94981.myapplication.utils;
+package com.multitagtext.utils;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -7,17 +7,17 @@ import android.text.style.DynamicDrawableSpan;
 
 import java.lang.ref.WeakReference;
 
-public class CustomImageSpan extends DynamicDrawableSpan {
+public class CustomDrawableSpan extends DynamicDrawableSpan {
 
     public static final int ALIGN_CENTER = -1;
 
     private Drawable mDrawable;
 
-    public CustomImageSpan(Drawable d) {
+    public CustomDrawableSpan(Drawable d) {
         this(d, ALIGN_CENTER);
     }
 
-    public CustomImageSpan(Drawable d, int verticalAlignment) {
+    public CustomDrawableSpan(Drawable d, int verticalAlignment) {
         super(verticalAlignment);
         mDrawable = d;
     }

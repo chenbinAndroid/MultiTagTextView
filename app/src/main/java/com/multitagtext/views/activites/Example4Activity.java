@@ -1,4 +1,4 @@
-package com.example.a94981.activites;
+package com.multitagtext.views.activites;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -9,8 +9,9 @@ import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.widget.TextView;
 
-import com.example.a94981.R;
-import com.example.a94981.myapplication.utils.CustomImageSpan;
+import com.multitagtext.R;
+import com.multitagtext.utils.CustomDrawableSpan;
+
 
 public class Example4Activity extends AppCompatActivity {
 
@@ -23,7 +24,7 @@ public class Example4Activity extends AppCompatActivity {
                 .toString());
         Drawable drawable = ContextCompat.getDrawable(this, R.mipmap.icon_discount_tag_primary);
         drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight());
-        builder.setSpan(new CustomImageSpan(drawable), 0, 1, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
+        builder.setSpan(new CustomDrawableSpan(drawable), 0, 1, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
         tvTitle.setText(builder);
     }
 }

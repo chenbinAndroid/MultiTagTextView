@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.example.a94981"
+<manifest package="com.multitagtext"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activites.MainActivity">
+        <activity android:name=".views.activites.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activites.ExampleActivity" />
-        <activity android:name=".activites.Example2Activity" />
-        <activity android:name=".activites.Example3Activity" />
-        <activity android:name=".activites.Example4Activity" />
-        <activity android:name=".activites.Example5Activity" />
+        <activity android:name=".views.activites.ExampleActivity" />
+        <activity android:name=".views.activites.Example2Activity" />
+        <activity android:name=".views.activites.Example3Activity" />
+        <activity android:name=".views.activites.Example4Activity" />
+        <activity android:name=".views.activites.Example5Activity" />
     </application>
 
 </manifest>

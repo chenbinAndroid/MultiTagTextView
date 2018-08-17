@@ -1,4 +1,5 @@
-package com.example.a94981.myapplication.utils;
+package com.multitagtext.utils;
+
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -6,7 +7,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-public class CommonUtils {
+public class CommonUtil {
 
     public static Drawable getDrawingCache(Context context, View view) {
         if (view == null) {

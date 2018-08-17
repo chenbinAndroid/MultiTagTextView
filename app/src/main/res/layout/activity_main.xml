@@ -45,7 +45,7 @@
         android:background="@color/colorPrimary"
         android:gravity="center"
         android:minWidth="200dp"
-        android:text="TextView(SpannableStringBuilder--->ImageSpan)"
+        android:text="TextView(SpannableStringBuilder--->DrawableSpan)"
         android:textAllCaps="false" />
 
     <Button
@@ -56,7 +56,7 @@
         android:background="@color/colorPrimary"
         android:gravity="center"
         android:minWidth="200dp"
-        android:text="TextView+(XML-->View-->Drawable--->SpannableStringBuilder--->ImageSpan)"
+        android:text="TextView+(XML-->View-->Drawable--->SpannableStringBuilder--->DrawableSpan)"
         android:textAllCaps="false" />
 
 </LinearLayout>

@@ -1,10 +1,11 @@
-package com.example.a94981.activites;
+package com.multitagtext.views.activites;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.a94981.R;
+import com.multitagtext.R;
+
 
 public class Example2Activity extends AppCompatActivity {
 
